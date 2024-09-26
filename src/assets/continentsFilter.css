@@ -1,0 +1,21 @@
+.inputContainer{
+    position: relative;
+}
+.continentsFilter{
+    position: absolute;
+    top: 120%;
+}
+.hidden-checkbox{
+    display: none;
+}
+.label-contient{
+    transition: transform 0.3s ease;
+}
+.label-contient:hover{
+    transform: scale(1.05);
+}
+.hidden-checkbox:checked + .label-contient img {
+    border: 3px solid #009cff;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+  }

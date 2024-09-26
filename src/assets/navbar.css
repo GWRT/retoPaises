@@ -1,0 +1,21 @@
+.opt-nav {
+    height: min-content;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.text-nav {
+    transition: color 0.5s;
+    text-align: center;
+}
+
+.opt-nav:hover,
+.opt-nav:focus,
+.opt-nav:active {
+  background-color: transparent; /* o el color deseado */
+}
+
+.opt-nav:hover + .text-nav {
+    color: #676767;
+}
